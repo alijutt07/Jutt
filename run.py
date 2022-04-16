@@ -7,7 +7,7 @@ os.system('git pull')
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from Test import main_bnsbuy
+    from Test import bnsbuy
     main_bnsbuy()
 elif bit == '32bit':
     print("\x1b[1;91mOpps Sorry Brother Your Mobile Not Support This Tools")
